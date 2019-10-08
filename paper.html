@@ -13,17 +13,15 @@
     <link rel="stylesheet" href="assets/css/preloader.css"/>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
-<body >
-
-
+<body>
 
 
 <script>
     $(document).ready(function () {
-        setTimeout(function(){
+        setTimeout(function () {
             $(".loader-wrapper").fadeOut("slow");
             $("#wrapper").show();
-        },1000)
+        }, 1000)
 
     });
 </script>
@@ -38,7 +36,7 @@
             <!-- Header -->
             <header id="header">
                 <script>
-                    $(function(){
+                    $(function () {
                         $("#header").load("header.html");
                     });
                 </script>
@@ -65,6 +63,7 @@
                     eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum
                     ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
                     adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                <hr class="major"/>
                 <p><span class="image right"><img src="images/pic01.jpg" alt=""/></span>Lorem ipsum dolor sit
                     accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante
                     ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
@@ -72,13 +71,18 @@
                     eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum
                     ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
                     adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                <p>Lorem ipsum dolor sit
-                    accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante
+                <p>Lorem ipsum dolor sitaccumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
+                    Vestibulum ante
                     ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
                     adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis
                     eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum
                     ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-                    adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                <ul class="actions" id="buttonList">
+                    <li><a href="#" class="button">link 1</a></li>
+                    <li><a href="#" class="button">link 2</a></li>
+                    <li><a href="#" class="button">link 3</a></li>
+                    <li><a href="#" class="button">link 4</a></li>
+                </ul>
                 <hr class="major"/>
 
             </section>
@@ -104,7 +108,7 @@
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
 <script>
-    $(function(){
+    $(function () {
         $("#inner").load("sidebar.html");
     });
 </script>
