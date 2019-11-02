@@ -3610,3 +3610,9 @@ button:disabled,
 ul#buttonList li {
     display: inline;
 }
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
